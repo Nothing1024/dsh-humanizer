@@ -1,0 +1,21 @@
+dsh-tool-humanize
+A DeepSeek Harness (dsh) plugin exposing the humanizer rewriter as a native tool.
+
+Portions of this package are ported from humanizer (https://github.com/sgaofen/humanizer-local-model,
+revision 7dd4be90cb3acb2e5d18aeea5837f888d2bb2d52):
+  - src/prompt.ts  <- humanizer/promptfmt.py, humanizer/hz.py, app/web/js/prompt.js, app/web/js/text.js
+  - src/text.ts    <- humanizer/hz_text.py (chunking, number/URL/copy/language checks)
+  - src/facts.ts   <- app/web/js/facts.js (Create fact / keep verbatim)
+  - src/engine.ts  <- humanizer/hz.py rewrite_units(), app/web/js/guard.js
+  - src/client/diff.ts   <- app/web/js/diff.js (word-level display diff)
+  - src/client/Panel.tsx, src/client/styles.ts <- layout, copy and look of app/web/index.html,
+                            app/web/js/app.js, app/web/css/app.css (draft/rewrite sheets,
+                            highlighter, keep-verbatim bar, number chip, regenerate/copy/download)
+
+Original NOTICE:
+  humanizer
+  Copyright 2026 Stephen Yu
+  This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The ported code is modified (translated from Python/JavaScript to TypeScript and adapted to the
+dsh tool API). Licensed under the Apache License, Version 2.0; see LICENSE.

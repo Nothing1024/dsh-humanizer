@@ -1,0 +1,9 @@
+# tool-humanize bundle patch: mounts the humanize_text tool and the 去 AI 味 panel.
+# Point it at your own humanizer llama-server by adding an `- id: tool-humanize` entry to your
+# profile (or use the plugin's 配置 page). apiKeyEnv is a credential reference name, never the key.
+- insert:
+    - id: tool-humanize
+      name: 'dsh-tool-humanize'
+      config:
+        baseURL: http://127.0.0.1:8080
+        apiKeyEnv: HUMANIZER_API_KEY

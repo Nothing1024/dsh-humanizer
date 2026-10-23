@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dsh-std.example/schemas/dsh-plugin/v0.15.json",
+  "id": "io.github.nothing1024.tool-humanize",
+  "name": "Humanize Text Tool",
+  "version": "0.1.1",
+  "manifestVersion": "0.15",
+  "facets": {
+    "host": {
+      "entry": "lib/index.js",
+      "apiVersion": "v1alpha1"
+    }
+  },
+  "requires": {
+    "contracts": [
+      {
+        "apiVersion": "x-nothing1024.dsh.tools/v1alpha1",
+        "kind": "ToolRegistry"
+      },
+      {
+        "apiVersion": "x-nothing1024.dsh.system-prompt/v1alpha1",
+        "kind": "SystemPrompt"
+      }
+    ]
+  },
+  "permissions": []
+}

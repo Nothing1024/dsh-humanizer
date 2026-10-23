@@ -1,0 +1,20 @@
+{
+  "name": "humanizer-mono",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DSH humanizer plugin project: humanize_text tool (去AI味) over the humanizer llama-server",
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' build",
+    "typecheck": "pnpm -r --filter './packages/*' typecheck",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsdown": "^0.22.14",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}

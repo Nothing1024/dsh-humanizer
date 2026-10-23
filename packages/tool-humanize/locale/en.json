@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Humanizer (De-AI rewrite)",
+    "description": "Rewrite AI-sounding drafts in a natural human voice with the humanizer model: the 去AI味 panel and an agent tool, keeping names, numbers and links intact."
+  }
+}

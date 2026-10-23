@@ -1,0 +1,376 @@
+{
+ "plans": {
+  "md": {
+   "input": "---\ntitle: Demo\n---\n\n# Quarterly report\n\nOur team shipped 3 releases in Q2 2026, and revenue grew 12.5% to $1,250,000. It is important to note that this growth was driven by enterprise customers.\n\n## Details\n\n- **Enterprise:** We signed 48 new enterprise contracts across 7 regions, which represents a significant milestone for the company overall.\n- short item\n1. Another fairly long list item that talks about onboarding improvements and support response times dropping to 4 hours.\n\n```python\nprint(\"keep me 42\")\n```\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\n> a quote stays\n\nKey points:\n- one\n- two\n\nSee [the docs](https://example.com/docs) for more.\n\nhttps://example.com/only-link\n\n## References\n\n[1] Smith, J. (2020). A paper about things that should never be rewritten by the model.\n",
+   "units": [
+    {
+     "id": 1,
+     "text": "Our team shipped 3 releases in Q2 2026, and revenue grew 12.5% to $1,250,000. It is important to note that this growth was driven by enterprise customers.",
+     "kind": "prose",
+     "line": 7
+    },
+    {
+     "id": 2,
+     "text": "We signed 48 new enterprise contracts across 7 regions, which represents a significant milestone for the company overall.",
+     "kind": "item",
+     "line": 11
+    },
+    {
+     "id": 3,
+     "text": "Another fairly long list item that talks about onboarding improvements and support response times dropping to 4 hours.",
+     "kind": "item",
+     "line": 13
+    }
+   ],
+   "kept": {
+    "frontmatter": 1,
+    "heading": 3,
+    "list item": 3,
+    "code": 1,
+    "table": 1,
+    "quote": 1,
+    "intro": 1,
+    "short": 1,
+    "media": 1,
+    "references": 1
+   },
+   "blocks": [
+    [
+     "frontmatter",
+     0,
+     3,
+     0,
+     ""
+    ],
+    [
+     "heading",
+     4,
+     5,
+     1,
+     ""
+    ],
+    [
+     "prose",
+     6,
+     7,
+     0,
+     ""
+    ],
+    [
+     "heading",
+     8,
+     9,
+     2,
+     ""
+    ],
+    [
+     "list",
+     10,
+     13,
+     0,
+     ""
+    ],
+    [
+     "code",
+     14,
+     17,
+     0,
+     ""
+    ],
+    [
+     "table",
+     18,
+     21,
+     0,
+     ""
+    ],
+    [
+     "quote",
+     22,
+     23,
+     0,
+     ""
+    ],
+    [
+     "intro",
+     24,
+     25,
+     0,
+     ""
+    ],
+    [
+     "list",
+     25,
+     27,
+     0,
+     ""
+    ],
+    [
+     "prose",
+     28,
+     29,
+     0,
+     ""
+    ],
+    [
+     "media",
+     30,
+     31,
+     0,
+     ""
+    ],
+    [
+     "heading",
+     32,
+     33,
+     2,
+     ""
+    ],
+    [
+     "references",
+     34,
+     35,
+     0,
+     ""
+    ]
+   ],
+   "render_identity": "---\ntitle: Demo\n---\n\n# Quarterly report\n\nOur team shipped 3 releases in Q2 2026, and revenue grew 12.5% to $1,250,000. It is important to note that this growth was driven by enterprise customers.\n\n## Details\n\n- **Enterprise:** We signed 48 new enterprise contracts across 7 regions, which represents a significant milestone for the company overall.\n- short item\n1. Another fairly long list item that talks about onboarding improvements and support response times dropping to 4 hours.\n\n```python\nprint(\"keep me 42\")\n```\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\n> a quote stays\n\nKey points:\n- one\n- two\n\nSee [the docs](https://example.com/docs) for more.\n\nhttps://example.com/only-link\n\n## References\n\n[1] Smith, J. (2020). A paper about things that should never be rewritten by the model.\n",
+   "render_upper": "---\ntitle: Demo\n---\n\n# Quarterly report\n\nR1\n\n## Details\n\n- **Enterprise:** R2\n- short item\n1. R3\n\n```python\nprint(\"keep me 42\")\n```\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\n> a quote stays\n\nKey points:\n- one\n- two\n\nSee [the docs](https://example.com/docs) for more.\n\nhttps://example.com/only-link\n\n## References\n\n[1] Smith, J. (2020). A paper about things that should never be rewritten by the model.\n"
+  },
+  "zh": {
+   "input": "在当今快速发展的数字化时代，人工智能技术正以前所未有的速度改变着我们的生活方式。2026年，全国共有48家门店完成了数字化改造，营收同比增长31.7万元。值得注意的是，这一成果离不开团队的共同努力。\n\n此外，我们还需要关注用户体验的持续优化。通过引入智能客服系统，平均响应时间缩短至3分钟，客户满意度提升至百分之九十五。",
+   "units": [
+    {
+     "id": 1,
+     "text": "在当今快速发展的数字化时代，人工智能技术正以前所未有的速度改变着我们的生活方式。2026年，全国共有48家门店完成了数字化改造，营收同比增长31.7万元。值得注意的是，这一成果离不开团队的共同努力。\n\n此外，我们还需要关注用户体验的持续优化。通过引入智能客服系统，平均响应时间缩短至3分钟，客户满意度提升至百分之九十五。",
+     "kind": "prose",
+     "line": 1
+    }
+   ],
+   "kept": {},
+   "blocks": [
+    [
+     "prose",
+     0,
+     1,
+     0,
+     ""
+    ],
+    [
+     "prose",
+     2,
+     3,
+     0,
+     ""
+    ]
+   ],
+   "render_identity": "在当今快速发展的数字化时代，人工智能技术正以前所未有的速度改变着我们的生活方式。2026年，全国共有48家门店完成了数字化改造，营收同比增长31.7万元。值得注意的是，这一成果离不开团队的共同努力。\n\n此外，我们还需要关注用户体验的持续优化。通过引入智能客服系统，平均响应时间缩短至3分钟，客户满意度提升至百分之九十五。",
+   "render_upper": "R1"
+  },
+  "long_en": {
+   "input": "This is sentence number 1 of a very long paragraph that keeps going and going without any break at all. This is sentence number 2 of a very long paragraph that keeps going and going without any break at all. This is sentence number 3 of a very long paragraph that keeps going and going without any break at all. This is sentence number 4 of a very long paragraph that keeps going and going without any break at all. This is sentence number 5 of a very long paragraph that keeps going and going without any break at all. This is sentence number 6 of a very long paragraph that keeps going and going without any break at all. This is sentence number 7 of a very long paragraph that keeps going and going without any break at all. This is sentence number 8 of a very long paragraph that keeps going and going without any break at all. This is sentence number 9 of a very long paragraph that keeps going and going without any break at all. This is sentence number 10 of a very long paragraph that keeps going and going without any break at all. This is sentence number 11 of a very long paragraph that keeps going and going without any break at all. This is sentence number 12 of a very long paragraph that keeps going and going without any break at all. This is sentence number 13 of a very long paragraph that keeps going and going without any break at all. This is sentence number 14 of a very long paragraph that keeps going and going without any break at all. This is sentence number 15 of a very long paragraph that keeps going and going without any break at all. This is sentence number 16 of a very long paragraph that keeps going and going without any break at all. This is sentence number 17 of a very long paragraph that keeps going and going without any break at all. This is sentence number 18 of a very long paragraph that keeps going and going without any break at all. This is sentence number 19 of a very long paragraph that keeps going and going without any break at all. This is sentence number 20 of a very long paragraph that keeps going and going without any break at all. This is sentence number 21 of a very long paragraph that keeps going and going without any break at all. This is sentence number 22 of a very long paragraph that keeps going and going without any break at all. This is sentence number 23 of a very long paragraph that keeps going and going without any break at all. This is sentence number 24 of a very long paragraph that keeps going and going without any break at all. This is sentence number 25 of a very long paragraph that keeps going and going without any break at all. This is sentence number 26 of a very long paragraph that keeps going and going without any break at all. This is sentence number 27 of a very long paragraph that keeps going and going without any break at all. This is sentence number 28 of a very long paragraph that keeps going and going without any break at all. This is sentence number 29 of a very long paragraph that keeps going and going without any break at all. This is sentence number 30 of a very long paragraph that keeps going and going without any break at all. This is sentence number 31 of a very long paragraph that keeps going and going without any break at all. This is sentence number 32 of a very long paragraph that keeps going and going without any break at all. This is sentence number 33 of a very long paragraph that keeps going and going without any break at all. This is sentence number 34 of a very long paragraph that keeps going and going without any break at all. This is sentence number 35 of a very long paragraph that keeps going and going without any break at all. This is sentence number 36 of a very long paragraph that keeps going and going without any break at all. This is sentence number 37 of a very long paragraph that keeps going and going without any break at all. This is sentence number 38 of a very long paragraph that keeps going and going without any break at all. This is sentence number 39 of a very long paragraph that keeps going and going without any break at all. This is sentence number 40 of a very long paragraph that keeps going and going without any break at all. This is sentence number 41 of a very long paragraph that keeps going and going without any break at all. This is sentence number 42 of a very long paragraph that keeps going and going without any break at all. This is sentence number 43 of a very long paragraph that keeps going and going without any break at all. This is sentence number 44 of a very long paragraph that keeps going and going without any break at all. This is sentence number 45 of a very long paragraph that keeps going and going without any break at all. This is sentence number 46 of a very long paragraph that keeps going and going without any break at all. This is sentence number 47 of a very long paragraph that keeps going and going without any break at all. This is sentence number 48 of a very long paragraph that keeps going and going without any break at all. This is sentence number 49 of a very long paragraph that keeps going and going without any break at all. This is sentence number 50 of a very long paragraph that keeps going and going without any break at all. This is sentence number 51 of a very long paragraph that keeps going and going without any break at all. This is sentence number 52 of a very long paragraph that keeps going and going without any break at all. This is sentence number 53 of a very long paragraph that keeps going and going without any break at all. This is sentence number 54 of a very long paragraph that keeps going and going without any break at all. This is sentence number 55 of a very long paragraph that keeps going and going without any break at all. This is sentence number 56 of a very long paragraph that keeps going and going without any break at all. This is sentence number 57 of a very long paragraph that keeps going and going without any break at all. This is sentence number 58 of a very long paragraph that keeps going and going without any break at all. This is sentence number 59 of a very long paragraph that keeps going and going without any break at all.",
+   "units": [
+    {
+     "id": 1,
+     "text": "This is sentence number 1 of a very long paragraph that keeps going and going without any break at all. This is sentence number 2 of a very long paragraph that keeps going and going without any break at all. This is sentence number 3 of a very long paragraph that keeps going and going without any break at all. This is sentence number 4 of a very long paragraph that keeps going and going without any break at all. This is sentence number 5 of a very long paragraph that keeps going and going without any break at all. This is sentence number 6 of a very long paragraph that keeps going and going without any break at all. This is sentence number 7 of a very long paragraph that keeps going and going without any break at all. This is sentence number 8 of a very long paragraph that keeps going and going without any break at all. This is sentence number 9 of a very long paragraph that keeps going and going without any break at all. This is sentence number 10 of a very long paragraph that keeps going and going without any break at all. This is sentence number 11 of a very long paragraph that keeps going and going without any break at all. This is sentence number 12 of a very long paragraph that keeps going and going without any break at all. This is sentence number 13 of a very long paragraph that keeps going and going without any break at all. This is sentence number 14 of a very long paragraph that keeps going and going without any break at all. This is sentence number 15 of a very long paragraph that keeps going and going without any break at all.",
+     "kind": "sentences",
+     "line": 1
+    },
+    {
+     "id": 2,
+     "text": "This is sentence number 16 of a very long paragraph that keeps going and going without any break at all. This is sentence number 17 of a very long paragraph that keeps going and going without any break at all. This is sentence number 18 of a very long paragraph that keeps going and going without any break at all. This is sentence number 19 of a very long paragraph that keeps going and going without any break at all. This is sentence number 20 of a very long paragraph that keeps going and going without any break at all. This is sentence number 21 of a very long paragraph that keeps going and going without any break at all. This is sentence number 22 of a very long paragraph that keeps going and going without any break at all. This is sentence number 23 of a very long paragraph that keeps going and going without any break at all. This is sentence number 24 of a very long paragraph that keeps going and going without any break at all. This is sentence number 25 of a very long paragraph that keeps going and going without any break at all. This is sentence number 26 of a very long paragraph that keeps going and going without any break at all. This is sentence number 27 of a very long paragraph that keeps going and going without any break at all. This is sentence number 28 of a very long paragraph that keeps going and going without any break at all. This is sentence number 29 of a very long paragraph that keeps going and going without any break at all. This is sentence number 30 of a very long paragraph that keeps going and going without any break at all.",
+     "kind": "sentences",
+     "line": 1
+    },
+    {
+     "id": 3,
+     "text": "This is sentence number 31 of a very long paragraph that keeps going and going without any break at all. This is sentence number 32 of a very long paragraph that keeps going and going without any break at all. This is sentence number 33 of a very long paragraph that keeps going and going without any break at all. This is sentence number 34 of a very long paragraph that keeps going and going without any break at all. This is sentence number 35 of a very long paragraph that keeps going and going without any break at all. This is sentence number 36 of a very long paragraph that keeps going and going without any break at all. This is sentence number 37 of a very long paragraph that keeps going and going without any break at all. This is sentence number 38 of a very long paragraph that keeps going and going without any break at all. This is sentence number 39 of a very long paragraph that keeps going and going without any break at all. This is sentence number 40 of a very long paragraph that keeps going and going without any break at all. This is sentence number 41 of a very long paragraph that keeps going and going without any break at all. This is sentence number 42 of a very long paragraph that keeps going and going without any break at all. This is sentence number 43 of a very long paragraph that keeps going and going without any break at all. This is sentence number 44 of a very long paragraph that keeps going and going without any break at all. This is sentence number 45 of a very long paragraph that keeps going and going without any break at all.",
+     "kind": "sentences",
+     "line": 1
+    },
+    {
+     "id": 4,
+     "text": "This is sentence number 46 of a very long paragraph that keeps going and going without any break at all. This is sentence number 47 of a very long paragraph that keeps going and going without any break at all. This is sentence number 48 of a very long paragraph that keeps going and going without any break at all. This is sentence number 49 of a very long paragraph that keeps going and going without any break at all. This is sentence number 50 of a very long paragraph that keeps going and going without any break at all. This is sentence number 51 of a very long paragraph that keeps going and going without any break at all. This is sentence number 52 of a very long paragraph that keeps going and going without any break at all. This is sentence number 53 of a very long paragraph that keeps going and going without any break at all. This is sentence number 54 of a very long paragraph that keeps going and going without any break at all. This is sentence number 55 of a very long paragraph that keeps going and going without any break at all. This is sentence number 56 of a very long paragraph that keeps going and going without any break at all. This is sentence number 57 of a very long paragraph that keeps going and going without any break at all. This is sentence number 58 of a very long paragraph that keeps going and going without any break at all. This is sentence number 59 of a very long paragraph that keeps going and going without any break at all.",
+     "kind": "sentences",
+     "line": 1
+    }
+   ],
+   "kept": {},
+   "blocks": [
+    [
+     "prose",
+     0,
+     1,
+     0,
+     ""
+    ]
+   ],
+   "render_identity": "This is sentence number 1 of a very long paragraph that keeps going and going without any break at all. This is sentence number 2 of a very long paragraph that keeps going and going without any break at all. This is sentence number 3 of a very long paragraph that keeps going and going without any break at all. This is sentence number 4 of a very long paragraph that keeps going and going without any break at all. This is sentence number 5 of a very long paragraph that keeps going and going without any break at all. This is sentence number 6 of a very long paragraph that keeps going and going without any break at all. This is sentence number 7 of a very long paragraph that keeps going and going without any break at all. This is sentence number 8 of a very long paragraph that keeps going and going without any break at all. This is sentence number 9 of a very long paragraph that keeps going and going without any break at all. This is sentence number 10 of a very long paragraph that keeps going and going without any break at all. This is sentence number 11 of a very long paragraph that keeps going and going without any break at all. This is sentence number 12 of a very long paragraph that keeps going and going without any break at all. This is sentence number 13 of a very long paragraph that keeps going and going without any break at all. This is sentence number 14 of a very long paragraph that keeps going and going without any break at all. This is sentence number 15 of a very long paragraph that keeps going and going without any break at all. This is sentence number 16 of a very long paragraph that keeps going and going without any break at all. This is sentence number 17 of a very long paragraph that keeps going and going without any break at all. This is sentence number 18 of a very long paragraph that keeps going and going without any break at all. This is sentence number 19 of a very long paragraph that keeps going and going without any break at all. This is sentence number 20 of a very long paragraph that keeps going and going without any break at all. This is sentence number 21 of a very long paragraph that keeps going and going without any break at all. This is sentence number 22 of a very long paragraph that keeps going and going without any break at all. This is sentence number 23 of a very long paragraph that keeps going and going without any break at all. This is sentence number 24 of a very long paragraph that keeps going and going without any break at all. This is sentence number 25 of a very long paragraph that keeps going and going without any break at all. This is sentence number 26 of a very long paragraph that keeps going and going without any break at all. This is sentence number 27 of a very long paragraph that keeps going and going without any break at all. This is sentence number 28 of a very long paragraph that keeps going and going without any break at all. This is sentence number 29 of a very long paragraph that keeps going and going without any break at all. This is sentence number 30 of a very long paragraph that keeps going and going without any break at all. This is sentence number 31 of a very long paragraph that keeps going and going without any break at all. This is sentence number 32 of a very long paragraph that keeps going and going without any break at all. This is sentence number 33 of a very long paragraph that keeps going and going without any break at all. This is sentence number 34 of a very long paragraph that keeps going and going without any break at all. This is sentence number 35 of a very long paragraph that keeps going and going without any break at all. This is sentence number 36 of a very long paragraph that keeps going and going without any break at all. This is sentence number 37 of a very long paragraph that keeps going and going without any break at all. This is sentence number 38 of a very long paragraph that keeps going and going without any break at all. This is sentence number 39 of a very long paragraph that keeps going and going without any break at all. This is sentence number 40 of a very long paragraph that keeps going and going without any break at all. This is sentence number 41 of a very long paragraph that keeps going and going without any break at all. This is sentence number 42 of a very long paragraph that keeps going and going without any break at all. This is sentence number 43 of a very long paragraph that keeps going and going without any break at all. This is sentence number 44 of a very long paragraph that keeps going and going without any break at all. This is sentence number 45 of a very long paragraph that keeps going and going without any break at all. This is sentence number 46 of a very long paragraph that keeps going and going without any break at all. This is sentence number 47 of a very long paragraph that keeps going and going without any break at all. This is sentence number 48 of a very long paragraph that keeps going and going without any break at all. This is sentence number 49 of a very long paragraph that keeps going and going without any break at all. This is sentence number 50 of a very long paragraph that keeps going and going without any break at all. This is sentence number 51 of a very long paragraph that keeps going and going without any break at all. This is sentence number 52 of a very long paragraph that keeps going and going without any break at all. This is sentence number 53 of a very long paragraph that keeps going and going without any break at all. This is sentence number 54 of a very long paragraph that keeps going and going without any break at all. This is sentence number 55 of a very long paragraph that keeps going and going without any break at all. This is sentence number 56 of a very long paragraph that keeps going and going without any break at all. This is sentence number 57 of a very long paragraph that keeps going and going without any break at all. This is sentence number 58 of a very long paragraph that keeps going and going without any break at all. This is sentence number 59 of a very long paragraph that keeps going and going without any break at all.",
+   "render_upper": "R1 R2 R3 R4"
+  },
+  "long_zh": {
+   "input": "这是一个很长的段落里的第1句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第2句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第3句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第4句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第5句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第6句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第7句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第8句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第9句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第10句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第11句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第12句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第13句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第14句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第15句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第16句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第17句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第18句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第19句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第20句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第21句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第22句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第23句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第24句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第25句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第26句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第27句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第28句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第29句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第30句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第31句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第32句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第33句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第34句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第35句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第36句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第37句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第38句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第39句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。",
+   "units": [
+    {
+     "id": 1,
+     "text": "这是一个很长的段落里的第1句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第2句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第3句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第4句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第5句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第6句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第7句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第8句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第9句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第10句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第11句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第12句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第13句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。",
+     "kind": "sentences",
+     "line": 1
+    },
+    {
+     "id": 2,
+     "text": "这是一个很长的段落里的第14句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第15句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第16句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第17句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第18句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第19句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第20句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第21句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第22句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第23句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第24句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第25句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第26句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。",
+     "kind": "sentences",
+     "line": 1
+    },
+    {
+     "id": 3,
+     "text": "这是一个很长的段落里的第27句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第28句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第29句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第30句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第31句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第32句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第33句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第34句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第35句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第36句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第37句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第38句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第39句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。",
+     "kind": "sentences",
+     "line": 1
+    }
+   ],
+   "kept": {},
+   "blocks": [
+    [
+     "prose",
+     0,
+     1,
+     0,
+     ""
+    ]
+   ],
+   "render_identity": "这是一个很长的段落里的第1句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第2句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第3句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第4句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第5句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第6句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第7句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第8句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第9句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第10句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第11句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第12句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第13句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第14句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第15句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第16句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第17句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第18句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第19句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第20句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第21句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第22句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第23句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第24句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第25句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第26句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第27句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第28句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第29句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第30句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第31句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第32句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第33句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第34句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第35句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第36句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第37句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第38句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。这是一个很长的段落里的第39句话，它没有任何换行，只是一直写下去，直到超过六百个汉字的限制为止。",
+   "render_upper": "R1R2R3"
+  }
+ },
+ "numbers": [
+  {
+   "draft": "We had 1,250 users and 480k views on 2026.09.07 at 10:30.",
+   "out": "There were 1250 users, 480,000 views on 2026-9-7 at 10:30.",
+   "missing": [],
+   "added": []
+  },
+  {
+   "draft": "Revenue rose 31.7万 in 2026, with 48 stores.",
+   "out": "Revenue rose 317,000 in 2026 with forty-eight stores.",
+   "missing": [],
+   "added": []
+  },
+  {
+   "draft": "全国共有48家门店，增长1.5亿。",
+   "out": "全国四十八家门店，增长150000000。",
+   "missing": [],
+   "added": []
+  },
+  {
+   "draft": "It took 3 days and 07 people.",
+   "out": "It took three days and seven people, costing 99 dollars.",
+   "missing": [],
+   "added": [
+    "99"
+   ]
+  },
+  {
+   "draft": "Price is $3.50, down from $4.",
+   "out": "Price is 3.5 now.",
+   "missing": [
+    "4"
+   ],
+   "added": []
+  },
+  {
+   "draft": "First, we ran 2 tests twice.",
+   "out": "We ran two tests 2 times.",
+   "missing": [],
+   "added": []
+  }
+ ],
+ "copy": [
+  {
+   "draft": "The quick brown fox jumps over the lazy dog near the river bank today.",
+   "out": "The quick brown fox jumps over the lazy dog near the old mill.",
+   "rate": 0.7777777777777778
+  },
+  {
+   "draft": "在当今快速发展的数字化时代人工智能技术正在改变生活",
+   "out": "在当今快速发展的数字化时代，AI 正在改变我们",
+   "rate": 0.47058823529411764
+  },
+  {
+   "draft": "Totally different words here for testing purposes only.",
+   "out": "Nothing in common with the source at all, friend.",
+   "rate": 0.0
+  }
+ ],
+ "drift": [
+  {
+   "draft": "This is an English draft about kubernetes pods and yaml.",
+   "out": "这是一个关于容器编排的中文改写，内容完全变成了中文，而且字数超过十五个。",
+   "drift": true
+  },
+  {
+   "draft": "This is an English draft.",
+   "out": "This is still English.",
+   "drift": false
+  },
+  {
+   "draft": "这是一个中文草稿，内容讲的是数字化转型和人工智能，字数足够多了吧。",
+   "out": "This is an English rewrite that has a lot of words in it so the guard should fire now.",
+   "drift": true
+  },
+  {
+   "draft": "这是一个中文草稿，内容讲的是数字化转型和人工智能，字数足够多了吧。",
+   "out": "这是改写后的中文。",
+   "drift": false
+  }
+ ],
+ "checks": [
+  {
+   "draft": "We shipped 3 releases and grew 12% this quarter, which was a strong result for the whole team overall and everyone involved in it.",
+   "out": "",
+   "copy": 0.0,
+   "issues": [
+    "empty",
+    "missing_numbers"
+   ],
+   "missing": [
+    "3",
+    "12"
+   ],
+   "added": [],
+   "score": [
+    1002,
+    0.0
+   ]
+  },
+  {
+   "draft": "We shipped 3 releases and grew 12% this quarter, which was a strong result for the whole team overall and everyone involved in it.",
+   "out": "We shipped 3 releases and grew 12% this quarter, which was a strong result for the whole team overall and everyone involved in it.",
+   "copy": 1.0,
+   "issues": [
+    "copy"
+   ],
+   "missing": [],
+   "added": [],
+   "score": [
+    1,
+    1.0
+   ]
+  },
+  {
+   "draft": "We shipped 3 releases and grew 12% this quarter, which was a strong result for the whole team overall and everyone involved in it.",
+   "out": "Three releases went out. Growth hit 12 percent. <p> Good quarter for everyone.",
+   "copy": 0.0,
+   "issues": [
+    "markup"
+   ],
+   "missing": [],
+   "added": [],
+   "score": [
+    1,
+    0.0
+   ]
+  }
+ ]
+}

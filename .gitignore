@@ -1,0 +1,7 @@
+node_modules/
+packages/*/lib/
+.DS_Store
+*.log
+.env
+*.bak-*
+coverage/
